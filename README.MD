@@ -1,4 +1,4 @@
-# Image Processing CLI
+# go-image-scale-script
 
 This project is a Go-based command-line application for processing images. It resizes images to predefined dimensions and optionally adds a watermark.
 
