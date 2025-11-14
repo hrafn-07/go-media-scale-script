@@ -18,9 +18,6 @@ import (
 const DefaultENV = ".env"
 
 func main() {
-	log.Println("########################################")
-	log.Println("Starting image processing application...")
-
 	// Command-line flags
 	envFlag := flag.String("env", DefaultENV, "Path to the .env file")
 	watermarkFlag := flag.Bool("w", false, "Add watermark")
